@@ -15,7 +15,7 @@ public class animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W)|| Input.GetKey(KeyCode.S)|| Input.GetKey(KeyCode.A)|| Input.GetKey(KeyCode.D))
         {
             if (Input.GetKey(KeyCode.LeftShift))
                 _state = 2;
