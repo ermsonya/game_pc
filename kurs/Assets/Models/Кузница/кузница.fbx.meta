@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 48b648332a427304ea107086a52978d0
+guid: c5c3f3700c4f2c74baa1780194ff5585
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -39,66 +39,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: "\u0421\u0442\u0435\u043D\u044B"
     second: {fileID: 2100000, guid: b2152aedae1edf943bcd3a40178fdde0, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: MetalCorrodedHeavy001_DISP_3K_SPECULAR
-    second: {fileID: 2800000, guid: 101ae51da3cf638448f65475f5721c9b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: MetalCorrodedHeavy001_NRM_3K_SPECULAR
-    second: {fileID: 2800000, guid: 96bd9581ac768af43ab26be71472730e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rocks01_col
-    second: {fileID: 2800000, guid: 6210d490f5ef52743bd3ff26ea2871a1, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rocks01_nrm
-    second: {fileID: 2800000, guid: dc59577c63b452748bf69f3d36b75217, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rocks07_col
-    second: {fileID: 2800000, guid: efe6482a74951d146bf2532863a7a153, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rocks07_nrm
-    second: {fileID: 2800000, guid: a2c5897dfcc31ab41b173edc44268cb4, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rocks07_rgh
-    second: {fileID: 2800000, guid: 184cddda1729fd04caa0de07ec0a14a2, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Stylized_12_RoofRound_basecolor
-    second: {fileID: 2800000, guid: ad4079c54deb9f648b4294ca3d26bbda, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Stylized_12_RoofRound_metallic
-    second: {fileID: 2800000, guid: d2f64eac630e3d749ab444c9ff81f665, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Stylized_12_RoofRound_normal
-    second: {fileID: 2800000, guid: 802578af21e4c9f43b5d0fd018506ffb, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Stylized_12_RoofRound_roughness
-    second: {fileID: 2800000, guid: 2ea27cdc310ec874ca5f422ca5c04c0e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Wood_dif1 1
-    second: {fileID: 2800000, guid: c47c29449d459134babf18e32d22a0ab, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
