@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 public class startingdialogue : MonoBehaviour
 {
     public Dialogue dialogue;
-    //public double talkDistance = 0.5;
-    //public GameObject player1;
-
+    public double talkDistance = 0.5;
+    public GameObject player1;
+   
     void Update()
     {
         // if (Input.GetKey(KeyCode.F)) {
@@ -20,17 +20,15 @@ public class startingdialogue : MonoBehaviour
         //}
     }
 
-
-    void OnTriggerEnter(Collider collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            print("Found an object");
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-        }
-    }
+}
+    //void OnTriggerEnter(Collider collision)
+    //{
+    //    if (collision.gameObject.tag == "Player")
+    //    {
+    //        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+    //    }
+    //}
     //void OnTriggerExit(Collider collision)
     //{
     //    animator.SetBool("IsOpen", false);
     //}
-}
