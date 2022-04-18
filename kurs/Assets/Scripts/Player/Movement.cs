@@ -43,7 +43,11 @@ public class Movement : MonoBehaviour
         {
             speed += 5;
         }
-
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+          speed -= 5;   
+        }
+       
             
         Vector3 direction = new Vector3(hor,0, ver).normalized;
         if (direction.magnitude >= 0.1f)
@@ -53,10 +57,7 @@ public class Movement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
             Vector3 moveDir = Quaternion.Euler(0f, angle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-            if (Input.GetKeyDown(KeyCode.LeftShift))
-            {
-                speed -= 5;
-            }
+            
 
         }
     }
