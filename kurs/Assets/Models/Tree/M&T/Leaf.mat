@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Leaf
-  m_Shader: {fileID: -6465566751694194690, guid: 1f6c3fe7ca2c5c24aa4a5f3811d5ccef, type: 3}
+  m_Shader: {fileID: 4800000, guid: 52f765a43c1d64846ac6bdee11b30119, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,10 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_4cc223c73a084a459e2d34ebf2d5794d:
-        m_Texture: {fileID: 2800000, guid: a1a9b2bd779fd894caea472a065b6ff8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -59,22 +55,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1254f998e6534615a1a8a3defa71c62b: 0.2
-    - Vector1_6e6ba5abc78341a196fe99a359c809f5: 1.2
-    - Vector1_cc597d1e99eb4b6a9055adebd9011040: 0.5
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -92,8 +73,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - Color_86f30f3a24524dbdbdb5563596f1852a: {r: 0.21197838, g: 0.6132076, b: 0.06652722, a: 0}
-    - Vector2_59cea1a26a804c73807a4d5c0b794599: {r: 1, g: 0, b: 0, a: 0}
     - _Color: {r: 0.4699999, g: 0.68, b: 0.29999998, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
