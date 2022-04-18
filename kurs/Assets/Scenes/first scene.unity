@@ -3993,7 +3993,7 @@ RectTransform:
   m_GameObject: {fileID: 360983775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6836842, y: 1.2798421, z: 1}
+  m_LocalScale: {x: 0.7145183, y: 1.272076, z: 1.0451}
   m_Children: []
   m_Father: {fileID: 1894813873}
   m_RootOrder: 4
@@ -4793,7 +4793,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447296726}
-  m_LocalRotation: {x: -0.00873679, y: 0.003610164, z: -0.0015126724, w: 0.99995416}
+  m_LocalRotation: {x: -0.008736685, y: 0.0035838857, z: -0.0015016331, w: 0.99995434}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -25450,7 +25450,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542067578}
-  m_LocalRotation: {x: 0.009452702, y: -0.0039400593, z: 0.0015673359, w: 0.99994636}
+  m_LocalRotation: {x: 0.009452835, y: -0.0039114114, z: 0.0015559704, w: 0.99994653}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -29432,7 +29432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 963194228}
-  speed: 3
+  speed: 5
   jumpForce: 10
   moveForce: 10
   gravity: -9
@@ -30139,7 +30139,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.19205667, y: -0.02095317, z: 0.004176882, w: 0.9811513}
+  m_LocalRotation: {x: 0.19205672, y: -0.020925378, z: 0.0041709277, w: 0.9811519}
   m_LocalPosition: {x: 42.925816, y: 6.0476913, z: 30.097113}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -32760,8 +32760,6 @@ MonoBehaviour:
     sentences:
     - hi. nice to meet you
     - If you want to stay in our town, speak with our elder
-  talkDistance: 0.3
-  player1: {fileID: 908485760}
 --- !u!1 &1306074213
 GameObject:
   m_ObjectHideFlags: 0
@@ -33509,8 +33507,6 @@ MonoBehaviour:
     sentences:
     - 'Greetings, i am Holland. '
     - 'Welcome to our little town '
-  talkDistance: 0.3
-  player1: {fileID: 908485760}
 --- !u!136 &1375420723
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -38581,7 +38577,7 @@ RectTransform:
   m_GameObject: {fileID: 1894813872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3425817, y: 0.3033591, z: 1}
+  m_LocalScale: {x: 0.9717229, y: 0.79851466, z: 0.58804077}
   m_Children:
   - {fileID: 206954406}
   - {fileID: 161874943}
@@ -38594,7 +38590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -576.564, y: 71.073364}
+  m_AnchoredPosition: {x: -769, y: 191}
   m_SizeDelta: {x: 326.2683, y: 419.4942}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1894813874
@@ -38884,8 +38880,6 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences: []
-  talkDistance: 0.5
-  player1: {fileID: 0}
 --- !u!1 &1949456825
 GameObject:
   m_ObjectHideFlags: 0
@@ -39076,8 +39070,6 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences: []
-  talkDistance: 0.5
-  player1: {fileID: 0}
 --- !u!1 &1965465732
 GameObject:
   m_ObjectHideFlags: 0
@@ -39314,14 +39306,14 @@ RectTransform:
   m_GameObject: {fileID: 1997118293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8937267, y: 2.5739858, z: 2.1603}
+  m_LocalScale: {x: 1.8487886, y: 2.5739858, z: 2.1603}
   m_Children: []
   m_Father: {fileID: 1894813873}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 49.636, y: -68}
+  m_AnchoredPosition: {x: 48, y: -68}
   m_SizeDelta: {x: 104.216, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1997118295
@@ -41247,7 +41239,7 @@ GameObject:
   - component: {fileID: 3220863563778567821}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42468,7 +42460,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148629559209}
   m_LocalRotation: {x: -0, y: -0.99906814, z: -0, w: -0.043161508}
-  m_LocalPosition: {x: -5.5037384, y: -3, z: 10.60713}
+  m_LocalPosition: {x: -5.5037384, y: -2.955, z: 10.60713}
   m_LocalScale: {x: 0.35656002, y: 0.35656, z: 0.35656002}
   m_Children:
   - {fileID: 8879528567263681933}
@@ -43201,7 +43193,7 @@ GameObject:
   - component: {fileID: 8417361358951860550}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44453,13 +44445,67 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653150973203}
   - component: {fileID: 9000199}
+  - component: {fileID: 919132148629559210}
+  - component: {fileID: 919132148629559211}
   m_Layer: 0
-  m_Name: Grfzr
+  m_Name: "\u0441\u0442\u0430\u0440\u0435\u0439\u0448\u0438\u043D\u0430"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132148629559210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148629559209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349b13ba477be9740b2304c9fec904f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: " \u0421\u0442\u0430\u0440\u0435\u0439\u0448\u0438\u043D\u0430 \u0414\u0436\u043E"
+    sentences:
+    - "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439, \u044E\u043D\u044B\u0439
+      \u043F\u0443\u0442\u043D\u0438\u043A, \u0434\u0430\u0432\u043D\u043E \u043D\u0435
+      \u0432\u0438\u0434\u0435\u043B\u0438\u0441\u044C, \u043A\u0430\u043A \u0436\u0435
+      \u0434\u043E\u043B\u0433\u043E \u0442\u0435\u0431\u044F \u043D\u0435 \u0431\u044B\u043B\u043E "
+    - "\u0421\u0442\u043E\u043B\u044C\u043A\u043E \u0432\u0441\u0435\u0433\u043E
+      \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E, \u043D\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438
+      \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u0442\u044C \u0432\u0441\u0451
+      \u043D\u0435\u0442"
+    - "\u041D\u0430\u0448\u0430 \u0434\u0435\u0440\u0435\u0432\u043D\u044F \u0432
+      \u0447\u0440\u0435\u0437\u0432\u044B\u0447\u0430\u0439\u043D\u043E\u0439 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438
+      \u0438 \u043D\u0430\u043C \u043E\u0447\u0435\u043D\u044C \u043D\u0443\u0436\u043D\u0430
+      \u0442\u0432\u043E\u044F \u043F\u043E\u043C\u043E\u0449\u044C"
+    - "\u0427\u0430\u0441\u0442\u044B\u0435 \u043D\u0430\u0431\u0435\u0433\u0438
+      \u0440\u0430\u0437\u0431\u043E\u0439\u043D\u0438\u043A\u043E\u0432 \u0438 \u0432\u043E\u043B\u043A\u043E\u0432
+      \u043D\u0435 \u0434\u0430\u044E\u0442 \u043D\u0430\u043C \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E
+      \u0436\u0438\u0442\u044C "
+    - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430 \u043F\u043E\u043C\u043E\u0433\u0438
+      \u043D\u0430\u043C \u0438\u0437\u0431\u0430\u0432\u0438\u0442\u044C\u0441\u044F
+      \u043E\u0442 \u044D\u0442\u043E\u0439 \u043D\u0430\u043F\u0430\u0441\u0442\u0438 "
+    - "\u041F\u043E\u0433\u043E\u0432\u043E\u0440\u0438 \u0441 \u0421\u0438\u0434\u0436\u0435\u043C,
+      \u043E\u043D \u0440\u0430\u0441\u0441\u043A\u0430\u0436\u0435\u0442, \u0433\u0434\u0435
+      \u043D\u0430\u0445\u043E\u0434\u044F\u0442\u0441\u044F \u0432\u0440\u0430\u0433\u0438
+      \u0438 \u0443\u043A\u0430\u0436\u0435\u0442 \u043F\u0443\u0442\u044C"
+--- !u!136 &919132148629559211
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148629559209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.55
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.05, z: 0}
 --- !u!1 &919132148643449963
 GameObject:
   m_ObjectHideFlags: 0
@@ -46688,7 +46734,7 @@ GameObject:
   - component: {fileID: 8413543556458019761}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50987,7 +51033,7 @@ GameObject:
   - component: {fileID: 57574269541157632}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51510,7 +51556,7 @@ GameObject:
   - component: {fileID: 7695757155661227376}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54389,7 +54435,7 @@ GameObject:
   - component: {fileID: 8003028576437742332}
   m_Layer: 0
   m_Name: Sphere.001
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57121,7 +57167,7 @@ GameObject:
   - component: {fileID: 8879528567236885421}
   m_Layer: 0
   m_Name: Armature
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58191,7 +58237,7 @@ GameObject:
   - component: {fileID: 5020573362198097616}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59428,7 +59474,7 @@ GameObject:
   - component: {fileID: 8510132732384459677}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59595,7 +59641,7 @@ GameObject:
   - component: {fileID: 8743813689233290253}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60177,7 +60223,7 @@ GameObject:
   - component: {fileID: 7603786706737279676}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60867,7 +60913,7 @@ GameObject:
   - component: {fileID: 7696407347274246659}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61263,7 +61309,7 @@ GameObject:
   - component: {fileID: 1206959447862474035}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61516,7 +61562,7 @@ GameObject:
   - component: {fileID: 8102382928586543971}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
