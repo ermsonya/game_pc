@@ -25,7 +25,6 @@ public class startingdialogue : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            print("Found an object");
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         }
     }
