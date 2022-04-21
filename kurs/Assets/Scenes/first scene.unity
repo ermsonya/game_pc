@@ -5416,6 +5416,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447296726}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5433,6 +5434,9 @@ Transform:
 =======
   m_LocalRotation: {x: -0.008736685, y: 0.003583882, z: -0.0015016319, w: 0.99995434}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.008736685, y: 0.0035838857, z: -0.0015016331, w: 0.99995434}
+>>>>>>> parent of ea53abd (Мелкие изменения)
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -19510,6 +19514,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542067578}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -19527,6 +19532,9 @@ Transform:
 =======
   m_LocalRotation: {x: 0.009452835, y: -0.0039114133, z: 0.0015559709, w: 0.99994653}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: 0.009452835, y: -0.0039114114, z: 0.0015559704, w: 0.99994653}
+>>>>>>> parent of ea53abd (Мелкие изменения)
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -24426,6 +24434,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -24443,6 +24452,9 @@ Transform:
 =======
   m_LocalRotation: {x: 0.19205672, y: -0.020925378, z: 0.0041709268, w: 0.9811519}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: 0.19205672, y: -0.020925378, z: 0.0041709277, w: 0.9811519}
+>>>>>>> parent of ea53abd (Мелкие изменения)
   m_LocalPosition: {x: 42.925816, y: 6.017691, z: 30.097113}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -28737,6 +28749,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449525800}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -28754,6 +28767,9 @@ Transform:
 =======
   m_LocalRotation: {x: -0.026875868, y: 0.0036105553, z: -0.0014363751, w: 0.9996313}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.026875868, y: 0.0036105702, z: -0.0014363825, w: 0.9996313}
+>>>>>>> parent of ea53abd (Мелкие изменения)
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
