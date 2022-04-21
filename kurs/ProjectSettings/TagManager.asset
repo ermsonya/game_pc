@@ -8,6 +8,8 @@ TagManager:
   - Raspberry
   - armor
   - sword
+  - dead
+  - malina
   layers:
   - Default
   - TransparentFX

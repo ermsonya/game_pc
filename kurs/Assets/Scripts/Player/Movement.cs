@@ -29,8 +29,9 @@ public class Movement : MonoBehaviour
             ver = Input.GetAxis("Vertical");
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                jspeed = jumpForce;
                 //if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)) { 
-                    jspeed = jumpForce;
+                    
                 //mspeed = moveForce;}
                 //else { 
                 //    jspeed = jumpForce;}
@@ -39,6 +40,7 @@ public class Movement : MonoBehaviour
         jspeed += gravity * Time.deltaTime * 3f;
         Vector3 dir = new Vector3(0, jspeed * Time.deltaTime, 0);
         controller.Move(dir);
+
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             speed += 5;
