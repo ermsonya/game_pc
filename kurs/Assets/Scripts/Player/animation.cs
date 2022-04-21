@@ -6,6 +6,7 @@ public class animation : MonoBehaviour
 {
     public Animator go;
     private int _state;
+    private int _hit;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,11 @@ public class animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+            _hit = 1;
+        }
+        else _hit = 0;
+        go.SetInteger("hit",_hit);
         if (Input.GetKey(KeyCode.W)|| Input.GetKey(KeyCode.S)|| Input.GetKey(KeyCode.A)|| Input.GetKey(KeyCode.D))
         {
             if (Input.GetKey(KeyCode.LeftShift))
