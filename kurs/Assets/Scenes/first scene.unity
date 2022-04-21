@@ -5417,7 +5417,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447296726}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0.008736685, y: 0.0035839304, z: -0.0015016526, w: 0.99995434}
+=======
+  m_LocalRotation: {x: -0.008736685, y: 0.003583882, z: -0.0015016319, w: 0.99995434}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.008736685, y: 0.003583882, z: -0.0015016319, w: 0.99995434}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.008736685, y: 0.003583882, z: -0.0015016319, w: 0.99995434}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: -0.008736685, y: 0.003583882, z: -0.0015016319, w: 0.99995434}
 >>>>>>> Stashed changes
@@ -19499,7 +19511,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542067578}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0.009452835, y: -0.0039113965, z: 0.001555963, w: 0.99994653}
+=======
+  m_LocalRotation: {x: 0.009452835, y: -0.0039114133, z: 0.0015559709, w: 0.99994653}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: 0.009452835, y: -0.0039114133, z: 0.0015559709, w: 0.99994653}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: 0.009452835, y: -0.0039114133, z: 0.0015559709, w: 0.99994653}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: 0.009452835, y: -0.0039114133, z: 0.0015559709, w: 0.99994653}
 >>>>>>> Stashed changes
@@ -24403,7 +24427,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0.19205672, y: -0.020925364, z: 0.004170923, w: 0.9811519}
+=======
+  m_LocalRotation: {x: 0.19205672, y: -0.020925378, z: 0.0041709268, w: 0.9811519}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: 0.19205672, y: -0.020925378, z: 0.0041709268, w: 0.9811519}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: 0.19205672, y: -0.020925378, z: 0.0041709268, w: 0.9811519}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: 0.19205672, y: -0.020925378, z: 0.0041709268, w: 0.9811519}
 >>>>>>> Stashed changes
@@ -28702,7 +28738,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449525800}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0.026875868, y: 0.0036105572, z: -0.0014363755, w: 0.9996313}
+=======
+  m_LocalRotation: {x: -0.026875868, y: 0.0036105553, z: -0.0014363751, w: 0.9996313}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.026875868, y: 0.0036105553, z: -0.0014363751, w: 0.9996313}
+>>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.026875868, y: 0.0036105553, z: -0.0014363751, w: 0.9996313}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: -0.026875868, y: 0.0036105553, z: -0.0014363751, w: 0.9996313}
 >>>>>>> Stashed changes
