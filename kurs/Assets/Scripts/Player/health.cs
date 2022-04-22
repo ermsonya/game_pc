@@ -14,9 +14,9 @@ public class health : MonoBehaviour
     {
         UIHP.fillAmount = hp;
         if (hp < 0)
-        {
+        {  Instantiate(Ragdoll, transform.position, transform.rotation);
             gameObject.SetActive(false);
-            Instantiate(Ragdoll, transform.position, transform.rotation);
+          
         }
         HpMalinatext.text = "" + HpMalina;
 

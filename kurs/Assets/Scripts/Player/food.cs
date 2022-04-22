@@ -5,6 +5,7 @@ using UnityEngine;
 public class food : MonoBehaviour
 {
     public GameObject Model;
+    public Material change;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,10 @@ public class food : MonoBehaviour
     {
         if (other.tag == "Player" & Input.GetKeyDown(KeyCode.F))
         {
-            Destroy(Model);
+            Model.GetComponent<Renderer>().material =change;
+            
+    //Destroy(Model);
+   
         }
     }
 }
