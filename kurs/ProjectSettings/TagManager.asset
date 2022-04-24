@@ -10,6 +10,8 @@ TagManager:
   - sword
   - dead
   - malina
+  - nomalina
+  - wastalk
   layers:
   - Default
   - TransparentFX
