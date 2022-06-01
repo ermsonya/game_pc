@@ -21,6 +21,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         float hor = 0;
         float ver = 0;
         if (controller.isGrounded)

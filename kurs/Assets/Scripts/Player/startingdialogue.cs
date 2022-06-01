@@ -17,6 +17,7 @@ public class startingdialogue : MonoBehaviour
     {
         if (other.tag == "Player" & Input.GetKeyDown(KeyCode.F) &n==0)
         {
+            
             tip.SetActive(false);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             transform.gameObject.tag = "wastalk";
@@ -26,8 +27,8 @@ public class startingdialogue : MonoBehaviour
         void OnTriggerExit(Collider other)
         {
 
-
-        }
+       
+    }
 
         //void OnTriggerEnter(Collider collision)
         //{
