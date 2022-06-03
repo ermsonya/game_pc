@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2296772631102214234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree_LOD2(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8621021678275582162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree_LOD1(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 6152839451104664037}
   - component: {fileID: 3071100730039154906}
   - component: {fileID: 8968412988285554434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leaves_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8302573210445978146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree_LOD0(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 6163057309996330197}
   - component: {fileID: 8196314385863291064}
   - component: {fileID: 7295684654958686460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trunk.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 8648470761539401326}
   - component: {fileID: 7758028265573102007}
   - component: {fileID: 6516652611992591139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 1101663324637812807}
   - component: {fileID: 4156071261111170507}
   - component: {fileID: 798128945523112393}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leaves_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 5537421890891718668}
   - component: {fileID: 2736580346859362596}
   - component: {fileID: -1241790453969388684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 5864233646324579288}
   - component: {fileID: 808372725484464681}
   - component: {fileID: 2461743129129139955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leaves_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +590,7 @@ GameObject:
   - component: {fileID: 989832421389031349}
   - component: {fileID: 588874265159089240}
   - component: {fileID: 6431724271353976007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trunk.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
