@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46a5f7f5193b60942bb0e3babfe7dac4
+guid: 1c29ecf40575a254f9f9bd7f5a69757e
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,23 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 152d0db7e66f2f74db9c9ba476a9c076, type: 2}
+      name: "\u0434\u0432\u0435\u0440\u044C"
+    second: {fileID: 2100000, guid: c470c2480679d8046a43a97caaf68703, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: c866a5085123eba4db430c239bf4524c, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u0421\u0435\u043D\u043E"
-    second: {fileID: 2800000, guid: 917827708c33bc441bf633a1f522e513, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u0421\u0435\u043D\u043E2"
-    second: {fileID: 2800000, guid: 7883abdb15eb7c24f85fa04798b12294, type: 3}
+      name: "\u0440\u0443\u0447\u043A\u0430"
+    second: {fileID: 2100000, guid: e4d4287b806b4b346951673ee336d164, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -65,14 +55,14 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
     bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
+    skinWeightsMode: 1
+    maxBonesPerVertex: 1
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
@@ -114,7 +104,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
