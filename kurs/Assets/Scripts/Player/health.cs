@@ -3,35 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+public class Global
+{
+    public static float HpMalina = 0f;
+ public static float hp = 1f;
+    
+    //public static Text HpMalinatext;
+}
+
 public class health : MonoBehaviour
 {
-    public Image UIHP;
-    public float hp = 1f;
     public GameObject Ragdoll;
     public GameObject tip;
     public Text HpMalinatext;
-    public float HpMalina = 0f;
+    public Image UIHP;
+    /* public float HpMalina = 0f*/
     private int n;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) & HpMalina > 0f & hp < 1f)
+        if (Input.GetKeyDown(KeyCode.E) & Global.HpMalina > 0f & Global.hp < 1f)
         {
-            hp = hp + 0.15f;
-            HpMalina = HpMalina - 1f;
+            Global.hp = Global.hp + 0.15f;
+            Global.HpMalina = Global.HpMalina - 1f;
         }
-        if (hp > 1f)
+        if (Global.hp > 1f)
         {
-            hp = 1f;
+            Global.hp = 1f;
         }
 
 
-        if (hp < 0)
+        if (Global.hp < 0)
         {  Instantiate(Ragdoll, transform.position, transform.rotation);
             gameObject.SetActive(false);
           
         }
-        HpMalinatext.text = "" + HpMalina;
-UIHP.fillAmount = hp;
+        HpMalinatext.text = "" + Global.HpMalina;
+       UIHP.fillAmount = Global.hp;
 
     }
     void OnTriggerStay(Collider other) // для лавы, шипов 
@@ -39,12 +46,12 @@ UIHP.fillAmount = hp;
        
         if (other.tag == "dead")
         {
-            hp -= Time.deltaTime / 10f;
+            Global.hp -= Time.deltaTime / 10f;
         }  
         if (other.tag == "malina" & Input.GetKeyDown(KeyCode.F))
         {
             n += 1;
-            HpMalina = HpMalina + 1f;
+            Global.HpMalina = Global.HpMalina + 1f;
       other.tag = "nomalina";
             tip.SetActive(false);
         }
@@ -53,9 +60,16 @@ tip.SetActive(true);
         }
       
     }
-    //    void OnTriggerExit(Collider other) { 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Sword")
+        {
+            Global.hp = Global.hp - 0.1f; 
+        }
+    }
+        //    void OnTriggerExit(Collider other) { 
 
-    //    tip.SetActive(false);
-    //}
-    
+        //    tip.SetActive(false);
+        //}
+
     }
