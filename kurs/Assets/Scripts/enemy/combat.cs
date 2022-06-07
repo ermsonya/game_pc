@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class combat : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public float hp = 1f;
+    public Image UIHP;
+   
     void Update()
+    {      
+        UIHP.fillAmount = hp;
+        if (hp < 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.tag == "plsword")
+        {
+          hp = hp - 0.1f;
+        }
     }
 }

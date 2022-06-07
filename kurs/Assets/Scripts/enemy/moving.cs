@@ -28,15 +28,14 @@ public class moving : MonoBehaviour
         {
             nav.enabled = true;
             nav.SetDestination(player.transform.position);
-          
+            
         }
-        if ((dist < Radius) &(dist > 0.5))
+        if ((dist < Radius) & (dist > 1))
         {
-
-            gameObject.GetComponent<Animator>().SetTrigger("run");
+gameObject.GetComponent<Animator>().SetTrigger("run");
         }
-        else if ((dist < Radius) & (dist <0.5))gameObject.GetComponent<Animator>().SetTrigger("active");
-        if (dist < 0.5)
+            //else if ((dist < Radius) & (dist <0.5))gameObject.GetComponent<Animator>().SetTrigger("active");
+            if (dist < 1)
         {
             
             gameObject.GetComponent<Animator>().SetTrigger("attack");

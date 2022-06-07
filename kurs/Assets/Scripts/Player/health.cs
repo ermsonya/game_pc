@@ -62,8 +62,9 @@ tip.SetActive(true);
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Sword")
+        if (other.tag == "sword")
         {
+            ////Debug.Log("hit");
             Global.hp = Global.hp - 0.1f; 
         }
     }
