@@ -1,7 +1,7 @@
     using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using static move;
 public class animation : MonoBehaviour
 {
     public Animator go;
@@ -16,7 +16,7 @@ public class animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+        if (Input.GetKeyDown(KeyCode.Mouse0) & move.t) {
             go.SetTrigger("hit");
         }
       

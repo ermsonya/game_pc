@@ -2,7 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class startingdialogue : MonoBehaviour
+public class move
+{
+    public static bool t=true;
+}
+
+    public class startingdialogue : MonoBehaviour
 {
     public Dialogue dialogue;
     //public double talkDistance = 0.5;
@@ -17,7 +22,7 @@ public class startingdialogue : MonoBehaviour
     {
         if (other.tag == "Player" & Input.GetKeyDown(KeyCode.F) &n==0)
         {
-            
+            move.t = false;
             tip.SetActive(false);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             transform.gameObject.tag = "wastalk";
@@ -26,8 +31,8 @@ public class startingdialogue : MonoBehaviour
         }
         void OnTriggerExit(Collider other)
         {
+        move.t = true;
 
-       
     }
 
         //void OnTriggerEnter(Collider collision)
