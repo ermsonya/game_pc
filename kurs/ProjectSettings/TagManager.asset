@@ -16,6 +16,7 @@ TagManager:
   - plsword
   - key
   - Spawnpoint
+  - camp
   layers:
   - Default
   - TransparentFX
