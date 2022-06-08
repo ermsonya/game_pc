@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bbc49fd48dbed9a4aa2a8ceef6738777
+guid: cd84de51f45d2a14390cf1f01bc3e414
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: "\u043C\u0435\u0442\u0430\u043B\u043B"
-    second: {fileID: 2100000, guid: 1b1bc542c07c6774096ca8cc203a173a, type: 2}
+      name: Material.004
+    second: {fileID: 2100000, guid: c470c2480679d8046a43a97caaf68703, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: "\u043C\u0435\u0442\u043A\u0430"
-    second: {fileID: 2100000, guid: b41f0d0ae9a332044a8263323689d26b, type: 2}
+      name: Material.005
+    second: {fileID: 2100000, guid: e4d4287b806b4b346951673ee336d164, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -61,8 +61,8 @@ ModelImporter:
     weldVertices: 1
     bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
+    skinWeightsMode: 1
+    maxBonesPerVertex: 2
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
@@ -104,7 +104,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
