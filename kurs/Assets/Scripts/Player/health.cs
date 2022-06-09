@@ -21,20 +21,20 @@ public class health : MonoBehaviour
     public GameObject tip;
     public Text HpMalinatext;
     public Image UIHP;
-    private float Xposition= 9f;
-    private float Yposition= 0.5f;
-    private float Zposition= 11.5f;
+    private float Xposition = 9f;
+    private float Yposition = 0.5f;
+    private float Zposition = 11.5f;
     /* public float HpMalina = 0f*/
     private int n;
-  
+
     void Start()
     {
-     
+
     }
     void Update()
     {
 
-        
+
 
         if (Input.GetKeyDown(KeyCode.E) & Global.HpMalina > 0f & Global.hp < 1f)
         {
@@ -47,7 +47,8 @@ public class health : MonoBehaviour
         }
 
 
-        if (Global.hp < 0){
+        if (Global.hp < 0)
+        {
             //  Instantiate(Ragdoll, transform.position, transform.rotation);
             //    gameObject.SetActive(false);
             //die.SetBool("dead",true);
@@ -55,50 +56,51 @@ public class health : MonoBehaviour
             //die.SetBool("dead", false);
             die.SetBool("dead", true);
             StartCoroutine(Wait(2f));
-          
-          
-        
-            /*   Instantiate(playerPref, spawn.position, spawn.rotation)*/  
+
+
+
+            /*   Instantiate(playerPref, spawn.position, spawn.rotation)*/
             //die.SetBool("dead", false);
 
             //Global.hp = 0.5f;
-      
+
         }
-        
+
         HpMalinatext.text = "" + Global.HpMalina;
-       UIHP.fillAmount = Global.hp;
+        UIHP.fillAmount = Global.hp;
 
     }
     void OnTriggerStay(Collider other) // для лавы, шипов 
     {
-       
+
         if (other.tag == "dead")
         {
             Global.hp -= Time.deltaTime / 10f;
-        }  
+        }
         if (other.tag == "malina" & Input.GetKeyDown(KeyCode.F))
         {
             n += 1;
             Global.HpMalina = Global.HpMalina + 1f;
-      other.tag = "nomalina";
+            other.tag = "nomalina";
             tip.SetActive(false);
         }
-        if (other.tag == "malina"/* & n == 0*/) {
-tip.SetActive(true);
+        if (other.tag == "malina"/* & n == 0*/)
+        {
+            tip.SetActive(true);
         }
-      
+
     }
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Spawnpoint")
         {
-          Debug.Log("hit");
-            die.SetBool("dead", false); 
+            Debug.Log("hit");
+            die.SetBool("dead", false);
         }
         if (other.tag == "sword")
         {
             ////Debug.Log("hit");
-            Global.hp = Global.hp - 0.1f; 
+            Global.hp = Global.hp - 0.1f;
         }
     }
     //    void OnTriggerExit(Collider other) { 
@@ -108,9 +110,17 @@ tip.SetActive(true);
     private IEnumerator Wait(float value)
     {
         //die.SetBool("dead", true);
-        yield return new WaitForSeconds(value); 
+        yield return new WaitForSeconds(value);
         transform.position = new Vector3(Xposition, Yposition, Zposition);
         Global.hp = 1f;
-        
+
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "malina")
+        {
+            tip.SetActive(false);
+
+        }
     }
 }
