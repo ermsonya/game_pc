@@ -5961,7 +5961,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456736479}
-  m_LocalRotation: {x: -0.0087367, y: 0.003583936, z: -0.0015015879, w: 0.99995434}
+  m_LocalRotation: {x: -0.0087367, y: 0.0035838857, z: -0.0015015712, w: 0.99995434}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -18753,7 +18753,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256773271}
-  m_LocalRotation: {x: 0.009452805, y: -0.0039113984, z: 0.0015560281, w: 0.99994653}
+  m_LocalRotation: {x: 0.009452805, y: -0.0039114133, z: 0.0015560337, w: 0.99994653}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -31997,7 +31997,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672513189}
-  m_LocalRotation: {x: -0.026875883, y: 0.003610572, z: -0.001436318, w: 0.9996313}
+  m_LocalRotation: {x: -0.026875883, y: 0.0036105553, z: -0.0014363134, w: 0.9996313}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -34756,7 +34756,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878934844}
-  m_LocalRotation: {x: 0.19205673, y: -0.02092522, z: 0.0041708364, w: 0.9811519}
+  m_LocalRotation: {x: 0.19205673, y: -0.020925239, z: 0.004170838, w: 0.9811519}
   m_LocalPosition: {x: 9.125815, y: 2.0476913, z: 7.897112}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -37882,7 +37882,7 @@ TerrainCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098544852}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4d97884d3e94f674eb956b4e895cd534, type: 2}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: bf9f06e4448bd2848a5b2da8a921c3f3, type: 2}
   m_EnableTreeColliders: 1
@@ -37902,8 +37902,8 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 80
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 60
+  m_SplatMapDistance: 60
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
