@@ -6,13 +6,13 @@ public class Movement : MonoBehaviour
 {
     private CharacterController controller;
     public Transform cam; 
-    public float speed = 6f;
+    public float speed = 4f;
     public float jumpForce=15;
     public float moveForce=10;
-    public float gravity;
+    public float gravity=-9;
     public float mspeed = 0;
     public float jspeed = 0;
-    public float turnSmothTime = 0.1f;
+    public float turnSmothTime = 0.05f;
     float turnSmoothVelocity;
     void Awake()
     {
@@ -28,25 +28,25 @@ public class Movement : MonoBehaviour
         {
             hor = Input.GetAxis("Horizontal");
             ver = Input.GetAxis("Vertical");
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                //if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)) { 
-                    jspeed = jumpForce;
-                //mspeed = moveForce;}
-                //else { 
-                //    jspeed = jumpForce;}
-            }
+            //    if (Input.GetKeyDown(KeyCode.Space))
+            //    {
+            //        //if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)) { 
+            //            jspeed = jumpForce;
+            //        //mspeed = moveForce;}
+            //        //else { 
+            //        //    jspeed = jumpForce;}
+            //    }
         }
         jspeed += gravity * Time.deltaTime * 3f;
         Vector3 dir = new Vector3(0, jspeed * Time.deltaTime, 0);
         controller.Move(dir);
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            speed += 5;
+            speed += 4;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-          speed -= 5;   
+          speed -= 4;   
         }
        
             
