@@ -17,6 +17,7 @@ TagManager:
   - key
   - Spawnpoint
   - camp
+  - end
   layers:
   - Default
   - TransparentFX
